@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 声名属性集的名称 -->
+    <declare-styleable name="MyView">
+
+        <!-- 声名一个属性  name是test_id   类型为 整数类型 -->
+        <attr name="test_id" format="integer" />
+
+        <!-- 声名一个属性  name是test_msg   类型为 字符串类型 -->
+        <attr name="test_msg" format="string" />
+
+        <!-- 声名一个属性  name是test_bitmap   类型为 引用类型      引用资源ID -->
+        <attr name="test_bitmap" format="reference" />
+        
+    </declare-styleable>
+
+    <declare-styleable name="CustomAttibuteView">
+        <attr name="viewId" format="integer"/>
+        <attr name="viewText" format="string"/>
+        <attr name="bitmap" format="reference"/>
+    </declare-styleable>
+
+</resources>
